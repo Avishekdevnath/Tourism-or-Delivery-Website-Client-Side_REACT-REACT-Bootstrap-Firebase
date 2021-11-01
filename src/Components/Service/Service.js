@@ -1,7 +1,6 @@
 import { faClock, faSmile } from '@fortawesome/free-regular-svg-icons';
 import { faPlaneDeparture, faUsers } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Button from '@restart/ui/esm/Button';
 import { useEffect, useState } from 'react';
 import { Card, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
@@ -12,11 +11,11 @@ const Service = () => {
     const { serviceId } = useParams();
     const [service, setService] = useState({});
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${serviceId}`)
+        fetch(`https://gentle-gorge-22589.herokuapp.com/services/${serviceId}`)
             .then(res => res.json())
             .then(data => setService(data))
     }, [])
-    const { _id, picture, title, price, shortDescription, description, rating, date, maxPeople, time } = service;
+    const { _id, picture, title, price, description, rating, date, time } = service;
 
     const clock = <FontAwesomeIcon icon={faClock} className="" />;
     const plane = <FontAwesomeIcon icon={faPlaneDeparture} className="" />;

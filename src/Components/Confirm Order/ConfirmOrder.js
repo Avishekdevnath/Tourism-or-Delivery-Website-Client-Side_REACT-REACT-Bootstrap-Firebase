@@ -11,7 +11,7 @@ const ConfirmOrder = ({ service }) => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         const doc = { data, status: 'pending', user, service };
-        fetch('http://localhost:5000/allOrders', {
+        fetch('https://gentle-gorge-22589.herokuapp.com/allOrders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

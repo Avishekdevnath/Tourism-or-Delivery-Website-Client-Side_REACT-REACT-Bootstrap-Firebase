@@ -5,14 +5,14 @@ const ManageMyOrders = () => {
     const { user } = useAuth();
     const [allOrders, setAllOrders] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/allOrders')
+        fetch('https://gentle-gorge-22589.herokuapp.com/allOrders')
             .then(res => res.json())
             .then(data => setAllOrders(data))
     }, [allOrders]);
     const myOrders = allOrders.filter(order => order.user.email === user.email);
 
     const handleUpdatedStatus = (_id, status, ...rest) => {
-        const url = `http://localhost:5000/allOrders/${_id}`;
+        const url = `https://gentle-gorge-22589.herokuapp.com/allOrders/${_id}`;
         const updatedStatus = 'approved';
         const updatedUser = { status: updatedStatus, ...rest }
         fetch(url, {
@@ -28,7 +28,7 @@ const ManageMyOrders = () => {
     const handleDeleteOrder = (_id) => {
         var answer = window.confirm("Do you want to delete the order ?");
         if (answer) {
-            const url = `http://localhost:5000/allOrders/${_id}`;
+            const url = `https://gentle-gorge-22589.herokuapp.com/allOrders/${_id}`;
             fetch(url, {
                 method: 'DELETE',
             })
