@@ -1,6 +1,6 @@
 #It is a react project for education purpose
 
-##Heart Line
+##VROMON
 It is a website to bring Traveler and travel agent together all over the world remotely.
 
 #Features
@@ -8,6 +8,8 @@ It is a website to bring Traveler and travel agent together all over the world r
 * Anyone can consult with travel agent 24/7.
 * Anyone can download their travel tickets anytime
 * Traveler and travel agent both can get benefit from this platform.
+* Anyone can cancel their order anytime.
+* We provide travel insurance to our customers
 
 
 #Laguanges used

@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 
 // Code for top services
 const TopServices = () => {
+
     const clock = <FontAwesomeIcon icon={faClock} className="" />;
     const plane = <FontAwesomeIcon icon={faPlaneDeparture} className="" />;
     const rate = <FontAwesomeIcon icon={faSmile} className="" />;
@@ -20,6 +21,7 @@ const TopServices = () => {
             .then(data => setServices(data))
     }, [])
     const filteredServices = services.filter(service => service.id <= 6)
+
     return (
         <div className="container py-5">
             <h1 className="py-5 fw-bold">Top Services</h1>
