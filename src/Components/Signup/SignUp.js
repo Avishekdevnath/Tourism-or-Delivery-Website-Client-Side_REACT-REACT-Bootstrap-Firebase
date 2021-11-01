@@ -7,8 +7,7 @@ import { Link } from 'react-router-dom';
 
 // Code FOr Signup
 const SignUp = () => {
-    const { allContexts } = useAuth();
-    const { setUser, getName, getEmail, getPassword, singUp, signInUsingGoogle, setIsLoading, error } = allContexts;
+    const { setUser, getName, getEmail, getPassword, singUp, signInUsingGoogle, setIsLoading, error } = useAuth();
     const location = useLocation();
     const history = useHistory();
 

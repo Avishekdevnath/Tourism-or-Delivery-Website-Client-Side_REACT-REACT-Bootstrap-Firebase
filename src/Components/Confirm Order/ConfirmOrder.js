@@ -1,4 +1,3 @@
-import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
@@ -7,13 +6,11 @@ import useAuth from '../../hooks/useAuth';
 import './ConfirmOrder.css'
 const ConfirmOrder = ({ service }) => {
     const history = useHistory();
-    const { allContexts } = useAuth();
-    const { user } = allContexts;
+    const { user } = useAuth();
     const { price } = service;
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         const doc = { data, status: 'pending', user, service };
-        console.log(doc);
         fetch('http://localhost:5000/allOrders', {
             method: 'POST',
             headers: {
@@ -24,7 +21,7 @@ const ConfirmOrder = ({ service }) => {
             .then(res => res.json())
             .then(data => {
                 if (data.insertedId) {
-                    alert('Successfully added the user.')
+                    alert('Order Confirmed.')
                     history.push('/myOrders')
                     reset();
                 }

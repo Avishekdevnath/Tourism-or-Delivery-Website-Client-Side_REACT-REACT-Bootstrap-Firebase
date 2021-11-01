@@ -13,6 +13,9 @@ import SignUp from './Components/Signup/SignUp';
 import Service from './Components/Service/Service';
 import Contact from './Components/Contact/Contact';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import ManageAllOrders from './Components/UserSection/ManageAllOrders/ManageAllOrders';
+import AddNewService from './Components/UserSection/AddService/AddNewService';
+import ManageMyOrders from './Components/UserSection/ManageMyOrders/ManageMyOrders';
 
 
 
@@ -34,10 +37,19 @@ function App() {
             <Route exact path="/services">
               <Services></Services>
             </Route>
-            <Route path="/service/:serviceId">
+            <PrivateRoute path="/service/:serviceId">
               <Service></Service>
-
+            </PrivateRoute>
+            <Route path="/addnewservice">
+              <AddNewService></AddNewService>
             </Route>
+            <Route path="/myorders">
+              <ManageMyOrders></ManageMyOrders>
+            </Route>
+            <Route path="/manageAllOrders">
+              <ManageAllOrders></ManageAllOrders>
+            </Route>
+
 
 
 

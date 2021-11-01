@@ -5,8 +5,7 @@ import useAuth from '../../hooks/useAuth';
 import './Login.css'
 
 const Login = () => {
-    const { allContexts } = useAuth();
-    const { setUser, getEmail, getPassword, signInUsingGoogle, signInWithEmail, setIsLoading } = allContexts;
+    const { setUser, getEmail, getPassword, signInUsingGoogle, signInWithEmail, setIsLoading } = useAuth();
     const location = useLocation();
     const history = useHistory();
 

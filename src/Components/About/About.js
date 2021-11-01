@@ -14,7 +14,7 @@ const About = () => {
                 <div className="py-5">
                     <h1 className="fw-bold">About us</h1>
                     <h5> <span className="m-logo fw-bold">VROMON</span> is the worlds best website for travel easily.</h5>
-                    <h5>Whether you’re a traveler looking for budget friend tour package <span className="m-logo fw-bold">VROMON</span> keeps us connected.</h5>
+                    <h5>Whether you’re a traveler looking for budget friendly tour package <span className="m-logo fw-bold">VROMON</span> keeps us connected.</h5>
                 </div>
                 <OurTeam></OurTeam>
                 <Faq></Faq>

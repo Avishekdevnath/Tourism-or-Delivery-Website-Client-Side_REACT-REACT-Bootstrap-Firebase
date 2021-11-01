@@ -15,11 +15,10 @@ const TopServices = () => {
 
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('./API/services.json')
+        fetch('http://localhost:5000/services')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
-
     const filteredServices = services.filter(service => service.id <= 6)
     return (
         <div className="container py-5">
@@ -27,8 +26,8 @@ const TopServices = () => {
             <Row xs={1} md={3} className="g-4">
                 {
                     filteredServices.map(service => {
-                        const { id, picture, title, price, shortDescription, description, rating, date, maxPeople, time } = service;
-                        return (<Col key={id}>
+                        const { _id, picture, title, price, shortDescription, description, rating, date, maxPeople, time } = service;
+                        return (<Col key={_id}>
                             <Card className="card h-100">
                                 <div className="img-container">
                                     <Card.Img variant="top" src={picture} className='image' />
@@ -57,7 +56,7 @@ const TopServices = () => {
                                     </div>
                                     <div className="">
 
-                                        <Link to={`/service/${id}`} className=""> <button className="btn btn-success ">Book Now</button> </Link>
+                                        <Link to={`/service/${_id}`} className=""> <button className="btn btn-success ">Book Now</button> </Link>
                                     </div>
                                 </Card.Body>
                             </Card>

@@ -3,9 +3,10 @@ import { faClock, faSmile } from '@fortawesome/free-regular-svg-icons';
 import { faPlaneDeparture, faUsers } from '@fortawesome/free-solid-svg-icons';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import useAuth from '../../hooks/useAuth';
+// import useAuth from '../../hooks/useAuth';
 
 import './Services.css'
+import { useEffect, useState } from 'react';
 
 
 // Code for Services
@@ -16,9 +17,14 @@ const Services = () => {
     const people = <FontAwesomeIcon icon={faUsers} className="" />;
 
 
-    const { services } = useAuth();
+    // const { services } = useAuth();
 
-
+    const [services, setServices] = useState([]);
+    useEffect(() => {
+        fetch('http://localhost:5000/services')
+            .then(res => res.json())
+            .then(data => setServices(data))
+    }, [])
     return (
         <div className="py-5">
             <Container>
@@ -29,8 +35,8 @@ const Services = () => {
                         services
                             .map(service => {
 
-                                const { id, picture, title, price, shortDescription, description, rating, date, maxPeople, time } = service;
-                                return (<Col key={id}>
+                                const { _id, picture, title, price, shortDescription, description, rating, date, maxPeople, time } = service;
+                                return (<Col key={_id}>
                                     <Card className="card h-100">
                                         <div className="img-container">
                                             <Card.Img variant="top" src={picture} className='image' />
@@ -59,7 +65,7 @@ const Services = () => {
                                             </div>
                                             <div className="">
 
-                                                <Link to={`/service/${id}`} className=""> <button className="btn btn-success ">Book Now</button> </Link>
+                                                <Link to={`/service/${_id}`} className=""> <button className="btn btn-success ">Book Now</button> </Link>
                                             </div>
                                         </Card.Body>
                                     </Card>

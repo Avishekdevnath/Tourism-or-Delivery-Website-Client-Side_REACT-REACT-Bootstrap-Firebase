@@ -2,18 +2,21 @@ import { faClock, faSmile } from '@fortawesome/free-regular-svg-icons';
 import { faPlaneDeparture, faUsers } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Button from '@restart/ui/esm/Button';
+import { useEffect, useState } from 'react';
 import { Card, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
-import useAuth from '../../hooks/useAuth';
 import ConfirmOrder from '../Confirm Order/ConfirmOrder';
 
 // Code For Service section
 const Service = () => {
     const { serviceId } = useParams();
-    const { services } = useAuth();
-    const selectedService = services?.find((service) => service.id === Number(serviceId));
-
-    const { id, picture, title, price, shortDescription, description, rating, date, maxPeople, time } = selectedService;
+    const [service, setService] = useState({});
+    useEffect(() => {
+        fetch(`http://localhost:5000/services/${serviceId}`)
+            .then(res => res.json())
+            .then(data => setService(data))
+    }, [])
+    const { _id, picture, title, price, shortDescription, description, rating, date, maxPeople, time } = service;
 
     const clock = <FontAwesomeIcon icon={faClock} className="" />;
     const plane = <FontAwesomeIcon icon={faPlaneDeparture} className="" />;
@@ -54,7 +57,7 @@ const Service = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <ConfirmOrder service={selectedService}></ConfirmOrder>
+                        <ConfirmOrder service={service}></ConfirmOrder>
                     </Row>
                 </div>
 
