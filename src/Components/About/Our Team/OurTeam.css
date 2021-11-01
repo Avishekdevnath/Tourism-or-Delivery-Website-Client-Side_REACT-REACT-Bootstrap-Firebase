@@ -1,0 +1,14 @@
+/* Style For Our Team */
+.card-image {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-image:hover .overlay {
+    top: 0%;
+}
+@keyframes anim {
+    from {top: 100%;}
+    to {top: 0%;}
+}

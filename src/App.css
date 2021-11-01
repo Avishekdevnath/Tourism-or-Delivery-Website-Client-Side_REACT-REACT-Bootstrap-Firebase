@@ -1,10 +1,22 @@
+/* Code for App.js */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.m-logo{
+  color: #1BB1D2 !important;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.input-style{
+    border: 2px solid lightsalmon !important;
+}
+.nav-text{
+    color: #fff;
+}
+
+.btn-regular{
+  background-color: coral;
 }
 
 @media (prefers-reduced-motion: no-preference) {

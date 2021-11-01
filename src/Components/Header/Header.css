@@ -1,0 +1,23 @@
+/* Style For Header Section */
+.header-style{
+    background-color: white !important;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.nav-text{
+    color: rgb(58, 58, 58) !important;
+    text-decoration: none;
+    font-weight: bold;
+font-size: 1.1rem;
+}
+.nav-text:hover{
+      color: #FFA63D !important;
+      border-bottom: 1px solid steelblue;
+     
+}
+
+.brand-text{
+    text-decoration: none;
+}
+/* .dropdown-text{
+    color:black !important;
+} */

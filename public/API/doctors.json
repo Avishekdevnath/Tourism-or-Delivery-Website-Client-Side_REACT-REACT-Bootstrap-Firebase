@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/w4RkRHJ/1-Deepesh-Venkatraman.png",
+        "name": "Dr. Deepesh V.",
+        "designation": "Cardiologist",
+        "Speciality": "Surgery",
+        "Education": "MBBS, MD (Gen Med), DM (Cardio), DNB (Cardio)",
+        "Fee": "100",
+        "Experience": "12 YRS",
+        "description": "Consultants Interventional Cardiologist practicing in Chennai with Apollo hospitals. Key areas of specialization include simple and complex angioplasty, chronic total occlusions, three vessel blockages eliminating need for bypass surgery, pacemakers and ICD therapy for heart failure, device closure of congenital defects in heart by needle prick end-vascular route, aortic and peripheral vessel angioplasty for claudication and non healing ulcers and endo-vascular aneurysm repairs."
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/DCfw3DT/2-Raja-Nag.png",
+        "name": "Dr. Raja Nag",
+        "designation": "Cardiologist",
+        "Speciality": "Medicine",
+        "Education": "MBBS, MD (Gen Med), DNB (Cardio)",
+        "Fee": "150",
+        "Experience": "20 YRS",
+        "description": "Dr. Raja Nag is a Cardiologist working at Apollo Gleneagles Hospitals, Kolkata. He has done his MBBS from Gauhati Medical College and Hospital, Guwahati (1992) and DNB (Cardiology) from Railway Hospital, Chennai (2010). Some of the services he provides are Implantable Cardioverter Defibrillator, Transesophageal Echocardiogram, Balloon Mitral Valvotomy, Arrhythmia Treatments and Permanent Pacemaker. One of his special areas of interests include Complex Angioplasty.He is a member of the Cardiological Society of India."
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/0hVm6WG/3-Tripti-Deb.png",
+        "name": "Dr. Tripti Deb",
+        "designation": "Cardiologist",
+        "Speciality": "Medicine",
+        "Education": "MBBS, MD, DM, FACC, FESC",
+        "Fee": "200",
+        "Experience": "40 YRS",
+        "description": "Dr. Tripti Deb is a Cardiologist with 35 years of experience. She currently works at Apollo Hospitals, Jubilee Hills (Hyderabad). Her area of expertise includes Interventional Cardiology, Implantable Cardioverter Defribillator, Catheter Ablation, Mitral Valve repair, etc. Some of the procedures she performs are Balloon Mitral Valvuloplasty, Cardioversion, Coronary Angiogram, etc.This notable doctor has been bestowed several honorary awards such as a Gold medal in Pfizer Company for Research in Medicine (1981). Dr. Tripti Deb was also the university topper in her MBBS and MD in General Medicine degrees."
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/0mGrjTg/4-Dr-Srinivasan-K-N.webp",
+        "name": "Dr. Srinivasan K N",
+        "designation": "Cardiologist",
+        "Speciality": "Medicine",
+        "Education": "MD, DNB (Cardio)",
+        "Fee": "100",
+        "Experience": "11 YRS",
+        "description": "Dr. Srinivasan K N is a top cardiologist in Chennai, currently associated with Apollo Hospitals. With more than two decades of experience in his field, Dr. Srinivasan is well-known for his work on interventional robotic surgery, Aortic Aneurysm Surgery / Endovascular Repair and Vascular Surgery. He offers various services to his patients including Electrocardiography (ECG), Echocardiography, Stress Echo, Pulmonary Function Test (PFT), Coronary Angiogram, Angioplasty and Stenting, Pacemaker Implantation, Cardiac Ablation, Cardiac Rehabilitation, Hypertension Treatment, Chest Pain Treatment, Treatment of arrhythmia, Treadmill Test - TMT, Cardiac Procedure, Ambulatory Blood Pressure Monitoring, Implantable cardioverter defibrillator, transesophageal echocardiogram permanent pacemaker, catheter ablation, mitral valve repair, Balloon mitral valvotomy, Non-Invasive Cardiology, Treatment of arrhythmia, Chest Pain Treatment, Ergometric test, Mitral/Heart Valve Replacement, Coronary Artery Bypass Grafting, PCI (Percutaneous Coronary Interventions), Patent Ductus Arteriosus (PDA), Tetralogy of Fallot (TOF), Dextro-Transposition of the Great Arteries (DTGA), Angiogram, Open Heart Surgery, Coronary Artery Bypass Grafting as well as Hypertriglyceridemia.Dr. Srinivasan has authored research papers and studies on cardiology. He is also a member of medical organizations such as the Cardiological Society of India and the National Interventional Council, Tamil Nadu."
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/NV6dh62/5-Robert-Mao.png",
+        "name": "Dr. Robert Mao",
+        "designation": "Cardiologist",
+        "Speciality": "Surgery",
+        "Education": "MBBS, MD, DM, FCCP, FICC",
+        "Fee": "150",
+        "Experience": "24 YRS",
+        "description": "Dr. Robert Mao is a Cardiologist working at Apollo Hospitals Greams Road, Chennai. He has 24 years of experience in his field. He has done his MBBS, MD (General Medicine) and DM (Cardiology) from Karnataka University, India (in 1977, 1980 and 1982 respectively). Some of the services he provides are Permanent Pacemaker, Balloon Mitral Valvotomy, Arrhythmia Treatments, etc.He is a member of the Tamil Nadu Medical Council."
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/31gKhhz/6-Narendra-Nath-Khanna.webp",
+        "name": "Dr. Narendra N K",
+        "designation": "Cardiologist",
+        "Speciality": "Surgery",
+        "Education": "MD, DM, FRCP, FACC, FSCAI, FESC, FAPSIC, FCCP, FEISI, FICC",
+        "Fee": "160",
+        "Experience": "25 YRS",
+        "description": "Dr. Prof. Narendra Nath Khanna is one of the best Cardiologists working with Apollo Hospitals, Delhi. He is known to offer various treatments for diseases such as Complex Coronary Interventions, Pacemaker, ICD, CRTD, Peripheral Vascular Disease, Structural Heart & Valvular Heart Disease, Endo-Vascular Intervention, Varicose Vein, Deep Vein Thrombosis, Hypertension and heart failure.Dr. Khanna is an extremely decorated doctor with more than 5 awards and medals credited to his work in medicine over a career expanding more than two decades, including Rajeev Gandhi Excellence Award. He has completed his educational qualifications from top institutions across the globe. He holds fellowships in Cardiology, Interventional Cardiology and Peripheral Vascular and Endovascular Interventions from Ochsner Medical Foundation, USA and France."
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/RPm6xJY/7-Nabarun-Roy.png",
+        "name": "Dr. Nabarun Roy",
+        "designation": "Cardiologist",
+        "Speciality": "Surgery",
+        "Education": "MBBS, MD (Med.), DM (Cardio), MRCP",
+        "Fee": "100",
+        "Experience": "11 YRS",
+        "description": "Dr. Nabarun Roy is a top cardiologist in Kolkata, currently associated with Apollo Hospitals. He specializes in cases of complex coronary intervention and CTO intervention. He offers a host of services to his patients such as Electrocardiography (ECG), Echocardiography, Stress Echo, Coronary Angiogram, Angioplasty and Stenting, Pacemaker Implantation, Cardiac Ablation, Hypertension Treatment, Chest Pain Treatment, Treatment of arrhythmia, Treadmill Test - TMT, Cardiac Procedure, Ambulatory Blood Pressure Monitoring, Implantable cardioverter-defibrillator, transesophageal echocardiogram permanent pacemaker, catheter ablation, Balloon mitral valvotomy, Arrhythmia treatments, Non-Invasive Cardiology, Treatment of arrhythmia, Chest Pain Treatment, Mitral/Heart Valve Replacement, Aortic Aneurysm Surgery / Endovascular Repair, Vascular Surgery, PCI (Percutaneous Coronary Interventions), Angiogram, Hypertriglyceridemia and Structural heart disease intervention."
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/FwKsx3f/8-S-N-Pathak.png",
+        "name": "Dr. S N Pathak",
+        "designation": "Cardiologist",
+        "Speciality": "Medicine",
+        "Education": "MBBS, MD (Medicine), DM (Cardiology)",
+        "Fee": "140",
+        "Experience": "16 YRS",
+        "description": "Dr. S N Pathak is one of the best Cardiologist in Delhi. He has completed DM in Cardiology from King George Medical College, Lucknow. He is experienced in percutaneous transcatheter aortic valve implantation (TAVI) under the direction of Dr. Alain Cribier at Medical Training Centre Rouen, France. He has more than 15 years of experience in performing complex surgeries and advanced management of issues related to the heart such as heart failure in clinical cardiology from UK. His passion is to inculcate practice of evidence-based and ethical medicine. His main fields of expertise and interest are complex coronary angioplasty, heart failure management, structural heart disease interventions like percutaneous transcatheter aortic valve implantation (TAVI) & BMV, Cardiac imaging (FFR, OCT, IVUS), Pacemaker, ICD, and CRT."
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/SXHqVkd/9-Dr-Rajeeve-Kumar-Rajput.webp",
+        "name": "Dr. Rajeeve K. Rajput",
+        "designation": "Cardiologist",
+        "Speciality": "Medicine",
+        "Education": "MBBS, MD, DM",
+        "Fee": "160",
+        "Experience": "26 YRS",
+        "description": "Dr. Rajeeve Kumar Rajput is one of the most experienced cardiologists in Delhi, currently associated with Apollo Hospitals. His special interest lies in taking cases of Enhanced external counterpulsation and other novel chest pain therapies, Balloon valvuloplasty, Coronary artery diseases as well as Interventional cardiology. He has trained in premier institutions of India and abroad and is highly recommended by his patients for exceptional cardio care. He has authored multiple research studies in his more than two-decades-long career and has contributed greatly to the field of cardiology and interventional cardiology."
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/K6kwPKk/10-Dr-Rajeshwari-Nayak.webp",
+        "name": "Dr. Rajeshwari Nayak",
+        "designation": "Surgery",
+        "Speciality": "Medicine",
+        "Education": "MBBS, DNB (Med), DNB (Cardio)",
+        "Fee": "140",
+        "Experience": "17 YRS",
+        "description": "Dr. Rajeshwari Nayak is one of the best cardiologists in Chennai, currently associated with Apollo Hospitals. She has more than two decades of experience in medicine and has authored more than 20 articles on cardiology in her long career. She is an expert in Primary angioplasty, Robotic angioplasty and has a special interest in heart failure management. Dr. Rajeshwari was also the first female cardiologist from India to perform a Robotic PCI. She is also well-known to manage issues of Electrocardiography (ECG), Echocardiography, Stress Echo, Coronary Angiogram, Angioplasty and Stenting, Pacemaker Implantation, Hypertension Treatment, Chest Pain Treatment, Treatment of arrhythmia, Treadmill Test - TMT, Cardiac Procedure, Ambulatory Blood Pressure Monitoring, transesophageal echocardiogram permanent pacemaker, Balloon mitral valvotomy, Non-Invasive Cardiology, Chest Pain Treatment, Angiogram, Open Heart Surgery, Coronary Artery Bypass Grafting and Hypertriglyceridemia."
+    }
+]

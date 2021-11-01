@@ -1,0 +1,28 @@
+/* .add-service form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-service form input, textarea{
+    width: 40%;
+    margin-bottom: 10px;
+} */
+
+.service-input {
+    display: flex;
+    flex-direction: column;
+}
+.service-input input {
+    background-color: rgb(247, 245, 245);
+    padding: 10px;
+    margin: 5px 0px;
+}
+.service-form-submit {
+    background-color: #F97150;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+}

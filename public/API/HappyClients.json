@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/Tcy52SW/1-1.jpg",
+        "name": "Wanda Hamilton",
+        "description": "the team were very fast and efficient in responding to any emails and also with updating me with my travel itinerary, etc. Loved being able yo book everything in the one place, in one transaction. I will most definitely be using Travel Online for my holiday bookings again in the future!"
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/vz7zrXt/2.jpg",
+        "name": "Lonnie Simmmons",
+        "description": "I love the way you guys are always very helpful and accomodating. Your service is excellent and I am more than happy to use your organisation for all future holidays."
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/TmKhMhy/3.jpg",
+        "name": "Jose Franklin",
+        "description": "Our booking was very easy to do online, I needed to make a few changes that I felt was not handled well at all.Once I spoke to the Team Manager, he was absolutely amazing. Couldn't do enough to sort our issue out. Went way above a 5 star service. More then happy to use snd recommend this company."
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/M2rqbs1/4.jpg",
+        "name": "Ruben Johnson",
+        "description": "I have not used your business or travel on line before so a bit panicky. But booking confirmed, informative emails, and a fantastic bargain stay at the Crown Metropol Perth. Thank you I will definitely use your service again."
+    },
+    {
+        "id": 5,
+        "picture": " https://i.ibb.co/pwkKHZR/5.jpg",
+        "name": "Timmothy Hayes",
+        "description": "Great experience with VROMON. We were looking for a last minute, all inclusive holiday package as we needed a break and didn't have time at the end of the year to organise something ourselves. VROMON delivered exactly what we needed and made the process so easy. Will definitely use again in the future."
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/HtCcGWj/6.webp",
+        "name": "Franklin Banks",
+        "description": "We thought we'd found a great deal for our holiday but it turned out that the original resort was booked out for our dates. But not to worry as Clare was able to provide a great recommendation for an alternative that was even better than our first choice - perfect for what we were looking for. The whole booking process was easy."
+    }
+]

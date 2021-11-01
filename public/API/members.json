@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/YBLGSQv/1.jpg",
+        "name": "Johnny Richards",
+        "designation": "Founder"
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/92D6t6H/2.jpg",
+        "name": "Micheal May",
+        "designation": "CEO"
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/5k1D67w/3.jpg",
+        "name": "Christine Hart",
+        "designation": "CFO"
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/tw6YC6c/4.jpg",
+        "name": "clifford snyder",
+        "designation": "CTO"
+    }
+]
