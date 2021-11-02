@@ -1,7 +1,6 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
 import './AddNewService.css'
-// id, picture, title, time, rating, price, maxPeople, date, minAge, wifi, pickup, shortDescription, description
 const AddNewService = () => {
     const { register, handleSubmit, reset } = useForm();
 
@@ -17,7 +16,7 @@ const AddNewService = () => {
             .then(data => {
                 if (data.insertedId) {
                     alert('Successfully added the service.')
-                    // reset();
+                    reset();
                 }
             })
     }
