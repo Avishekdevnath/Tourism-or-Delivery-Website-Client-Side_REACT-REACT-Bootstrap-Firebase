@@ -33,7 +33,7 @@ const Login = () => {
                     <input className="input-style" onBlur={getPassword} type="password" placeholder="Enter Password" name="psw" required />
                 </div>
                 <br />
-                <p>New to Heart Lin?  <Link to="/signup">Sign up</Link></p>
+                <p>New to VROMON?  <Link to="/signup">Sign up</Link></p>
                 <br />
                 <button type="submit" className="submit w-50"><strong>LOGIN</strong></button>
                 <br />
