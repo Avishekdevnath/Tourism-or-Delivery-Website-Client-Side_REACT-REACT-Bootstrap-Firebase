@@ -25,6 +25,7 @@ const AddNewService = () => {
         <div className="add-service my-5 py-5">
             <h2>Add New Service</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
+                <input {...register("id", { required: true })} placeholder="id (greater than 13)" />
                 <input {...register("picture", { required: true })} placeholder="Image url" />
                 <input {...register("title", { required: true })} placeholder="Service title" />
                 <input {...register("time", { required: true })} placeholder="time" />
