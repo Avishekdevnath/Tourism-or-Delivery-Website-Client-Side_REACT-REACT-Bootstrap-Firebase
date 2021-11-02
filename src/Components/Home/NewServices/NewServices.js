@@ -1,12 +1,11 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faSmile } from '@fortawesome/free-regular-svg-icons';
 import { faPlaneDeparture, faUsers } from '@fortawesome/free-solid-svg-icons';
 import { Card, Col, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 
-// Code for top services
-const TopServices = () => {
+const NewServices = () => {
 
     const clock = <FontAwesomeIcon icon={faClock} className="" />;
     const plane = <FontAwesomeIcon icon={faPlaneDeparture} className="" />;
@@ -19,11 +18,11 @@ const TopServices = () => {
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
-    const filteredServices = services.filter(service => service.id <= 6)
+    const filteredServices = services.filter(service => service.id >= 12)
 
     return (
         <div className="container py-5">
-            <h1 className="py-5 fw-bold">Top Services</h1>
+            <h1 className="py-5 fw-bold">New Services</h1>
             <Row xs={1} md={3} className="g-4">
                 {
                     filteredServices.map(service => {
@@ -70,4 +69,4 @@ const TopServices = () => {
     );
 };
 
-export default TopServices;
+export default NewServices;

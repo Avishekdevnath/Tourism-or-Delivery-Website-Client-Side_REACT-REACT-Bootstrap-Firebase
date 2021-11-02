@@ -6,6 +6,7 @@ import HappyClients from './HappyClients/HappyClients';
 import Faq from '../About/Faq/Faq';
 import Loader from "react-loader-spinner";
 import useData from '../../hooks/useData';
+import NewServices from './NewServices/NewServices';
 
 // Code for home page
 const Home = () => {
@@ -35,6 +36,7 @@ const Home = () => {
                 <>
                     <Welcome></Welcome>
                     <TopServices ></TopServices>
+                    <NewServices></NewServices>
                     <Faq></Faq>
                     <HappyClients></HappyClients>
                 </>
