@@ -26,7 +26,7 @@ const Home = () => {
             {loading ?
                 <div className="h-100 w-100 my-5 py-5">
                     <Loader
-                        type="BallTriangle"
+                        type="Audio"
                         color="#00BFFF"
                         height={500}
                         width={500}
